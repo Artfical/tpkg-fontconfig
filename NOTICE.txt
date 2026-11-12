@@ -1,0 +1,4 @@
+fontconfig for tOS
+==================
+
+Built from fontconfig-2.15.0.tar.xz (beside this package), unmodified: ./configure --prefix=/system/pkg/fontconfig --with-default-fonts=/system/pkg/fonts-dejavu/ttf --with-add-fonts=/system/pkg/xorg/share/fonts, linked with the freetype of the xorg package and the expat package. The cache is kept in /tmp/fontconfig-var. License: MIT (LICENSE).

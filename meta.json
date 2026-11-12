@@ -1,0 +1,29 @@
+{
+ "name": "fontconfig",
+ "version": "2.15.0",
+ "license": "MIT",
+ "homepage": "https://www.fontconfig.org",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "fontconfig-2.15.0.tar.xz"
+ ],
+ "desc": "fontconfig 2.15.0: finding and listing fonts for Qt and other programs (looks in the fonts-dejavu and xorg font folders)",
+ "file": "fontconfig-2.15.0.tpkg",
+ "size": 219496,
+ "sha256": "46a65baf7d29ec9c23bfd1a14a59db880c346fa60c910f1f207481beec0482f2",
+ "unpacked": 765506,
+ "min_build": 618,
+ "depends": [
+  "xorg",
+  "expat",
+  "fonts-dejavu"
+ ],
+ "commands": {
+  "fc-list": "bin/fc-list",
+  "fc-match": "bin/fc-match",
+  "fc-cache": "bin/fc-cache"
+ }
+}
